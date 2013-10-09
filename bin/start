@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+libPath = File.join(File.dirname(__FILE__), "..", "lib")
+$LOAD_PATH << libPath
+require 'cli.rb'
